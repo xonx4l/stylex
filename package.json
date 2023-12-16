@@ -40,6 +40,7 @@
     "@rollup/plugin-json": "^6.0.1",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-replace": "^5.0.3",
+    "@stylexjs/eslint-plugin": "^0.3.0",
     "@types/estree": "^1.0.2",
     "@types/jest": "^29.5.5",
     "babel-plugin-syntax-hermes-parser": "^0.18.0",
@@ -82,5 +83,8 @@
         }
       }
     ]
+  },
+  "dependencies": {
+    "flow": "^0.2.3"
   }
 }
